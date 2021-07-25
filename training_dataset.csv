@@ -1,0 +1,37 @@
+﻿table name,column name,predicted labels by rule engine,accepted labels,discarded labels
+Employee,Address,Address,Address,
+Employee,Age,"Age, Height, Weight",Age,"Weight, Height"
+Employee,Address2,Address,Address,
+Customer,City,City,City,
+Customer,City2,City,City,
+Employee,Firstname,"Firstname, Lastname",Firstname,Lastname
+Employee,Lastname,"Firstname, Lastname",Lastname,Firstname
+Customer,Addr,Address,Address,
+Customer,C_T,"Telephone, Fax",Telephone,Fax
+Customer,C_F,"Telephone, Fax",Fax,Telephone
+Employee,Curr,"Currency, Age",Currency,Age
+Employee,Currency,Currency,Currency,
+Employee,Money,Currency,Currency,
+Customer,ST,"State, Country",State,Country
+Customer,State,"State, Country",State,Country
+Employee,fn,"Firstname, Lastname",Firstname,Lastname
+Customer,F_Name,"Firstname, Lastname",Firstname,Lastname
+Employee,L_Name,"Firstname, Lastname",Lastname,Firstname
+Customer,ln,"Firstname, Lastname",Lastname,Firstname
+Product,MiscDate,Date,Date,
+Customer,OrderDate,Date,Date,
+Product,CreateDate,Date,Date,
+Employee,C_Age,"Age, Height, Weight",Age,"Weight, Height"
+Emp,Phone,"Telephone, Fax",Telephone,Fax
+Emp,Number,"Telephone, Fax",Telephone,Fax
+Emp,CapitalName,"City, Capital",Capital,City
+Emp,P_Age,"Age, Height, Weight",Age,"Weight, Height"
+Cust,ADR,Address,Address,
+Cust,CTY,"Currency, Age",Currency,Age
+Cust,MLSG,"Age, Height, Weight",Age,"Weight, Height"
+Cust,Name_FN,"Firstname, Lastname",Firstname,Lastname
+Cust,Name_LN,"Firstname, Lastname",Lastname,Firstname
+Emp,Address1,Address,Address,
+Emp,Mob,Telephone,Telephone,
+Emp,Fax,"Telephone, Fax",Fax,Telephone
+Emp,F,"Telephone, Fax",Fax,Telephone
